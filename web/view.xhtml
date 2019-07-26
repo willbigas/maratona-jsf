@@ -8,16 +8,16 @@
 <h:head>
     <h:body>
         <h:form>
-            <h:outputText value="#{testeSessionBean.personagemSelecionado}"/><br/>
             <h:outputText value="#{testeApplicationBean.categoriaList}"/><br/>
-            <h:commandButton actionListener="#{testeSessionBean.selecionarPersonagem}"
+            <h:outputText value="#{testeViewBean.personagemSelecionado}"/><br/>
+            <h:commandButton actionListener="#{testeViewBean.selecionarPersonagem}"
                              value="Selecionar Personagem"/>
-            <h:commandButton actionListener="#{testeSessionBean.selecionarPersonagem}"
+            <h:commandButton actionListener="#{testeViewBean.selecionarPersonagem}"
                              value="Selecionar Personagem Forward" action="session2"/>
-            <h:commandButton actionListener="#{testeSessionBean.selecionarPersonagem}"
+            <h:commandButton actionListener="#{testeViewBean.selecionarPersonagem}"
                              value="Selecionar Personagem Redirect" action="session2?faces-redirect=true"/>
 
-            <h:commandButton action="#{testeSessionBean.logout()}"
+            <h:commandButton action="#{testeViewBean.logout()}"
                              value="Sair"/>
 
         </h:form>
