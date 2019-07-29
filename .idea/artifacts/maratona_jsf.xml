@@ -10,6 +10,7 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: com.sun.faces:jsf-api:2.2.13" />
           <element id="library" level="project" name="Maven: org.primefaces:primefaces:7.0" />
+          <element id="library" level="project" name="Maven: org.omnifaces:omnifaces:3.3" />
         </element>
       </element>
       <element id="javaee-facet-resources" facet="maratona-jsf/web/Web" />
